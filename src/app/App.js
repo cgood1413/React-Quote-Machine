@@ -1,8 +1,7 @@
 import './App.css';
 import React, {Component} from 'react';
 import {QuoteBox} from '../components/QuoteBox'
-import {QuoteText} from '../components/QuoteText'
-import {QuoteAuthor} from '../components/QuoteAuthor'
+import {Quote} from '../components/Quote'
 import {QuoteButton} from '../components/QuoteButton'
 import {ReactComponent as TwitterLogo} from '../media/twitter-logo.svg';
 
@@ -44,11 +43,10 @@ class App extends Component {
     const author = this.state.currentQuote.author;
     return (
       <QuoteBox id="quote-box">
-        <QuoteText id="text" text={quote} />
-        <QuoteAuthor id="author" author={author} />
+        <Quote id="text" text={quote} author={author} />
         <QuoteButton id="new-quote" handleClick={this.updateQuote} />
-        <a id='tweet-quote' target="_blank" href={"https://twitter.com/intent/tweet?text=" + quote}>
-          <TwitterLogo className='TwitterLogo'/>
+        <a title='Tweet this quote' id='tweet-quote' target="_blank" href={"https://twitter.com/intent/tweet?text=" + quote}>
+          <TwitterLogo id='twitter-logo'/>
         </a>
       </QuoteBox>
     );
