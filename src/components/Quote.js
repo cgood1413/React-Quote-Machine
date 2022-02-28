@@ -1,8 +1,8 @@
 export const Quote = props => {
-    return (
+  return (
     <blockquote className="blockquote-reverse" id={props.id}>
-        <p>{props.text}</p>
-        <footer id='author' >{props.author}</footer>
+      <p className="text">{props.text}</p>
+      <footer id="author">{props.author}</footer>
     </blockquote>
-    );
+  );
 }
