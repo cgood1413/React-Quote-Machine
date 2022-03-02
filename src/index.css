@@ -1,5 +1,24 @@
-body {
-  background-image: url('./media/blurry-gradient-haikei.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
+:root {
+  --primaryColor: #4B00BD;
+  --secondaryColor: #004736;
 }
+
+.primary {
+  fill: var(--primaryColor);
+}
+
+.secondary {
+  fill: var(--secondaryColor);
+}
+
+.primary, .secondary {
+  transition: all 1s;
+}
+
+/* Palette
+--baby-pink: hsla(354, 83%, 88%, 1);
+--caribbean-green: hsla(165, 100%, 40%, 1);
+--electric-indigo: hsla(264, 100%, 50%, 1);
+--maximum-yellow-red: hsla(40, 100%, 67%, 1);
+--amaranth-purple: hsla(348, 48%, 44%, 1);
+*/

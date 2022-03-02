@@ -2,7 +2,10 @@
     position: absolute;
     bottom: 10px;
     right: 15px;
+    background-color: black;
     mix-blend-mode: multiply;
+    color:hsla(0, 0%, 100%, 0.5) !important;
+    font-weight: bold !important;
     outline: none !important;
 } 
 
@@ -20,6 +23,7 @@
 
 i {
     margin-bottom: 5px;
+    color: black;
 }
 
 
