@@ -10,7 +10,7 @@
     </defs>
     <rect width="900" height="600" fill="#6600FF"></rect>
     <g filter="url(#blur1)">
-        <circle cx="593" cy="48" fill="#00CC99" r="357"></circle>
+        <circle id="circle1" cx="593" cy="48" fill="#00CC99" r="357"></circle>
         <circle cx="872" cy="436" fill="#6600FF" r="357"></circle>
         <circle cx="75" cy="236" fill="#00CC99" r="357"></circle>
         <circle cx="777" cy="138" fill="#00CC99" r="357"></circle>

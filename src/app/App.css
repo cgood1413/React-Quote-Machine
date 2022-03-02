@@ -2,29 +2,25 @@
     position: absolute;
     bottom: 10px;
     right: 15px;
-    /* color: black !important; */
-    background-color: inherit;
     mix-blend-mode: multiply;
-} 
-
-button:focus {
     outline: none !important;
-}
+} 
 
 #quote-box {
     border-radius: 5px;
-    background-color: hsla(0, 0%, 100%, 0.45);  
+    background-color: hsla(0, 0%, 100%, 0.5);  
     backdrop-filter: blur(5px);
     mix-blend-mode: lighten;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-top: 15px;
 }
 
-#twitter-logo {
-    width: 40px;
-    height: auto;
+i {
+    margin-bottom: 5px;
 }
+
 
 
